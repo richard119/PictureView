@@ -7,6 +7,7 @@
 //
 
 #import "RZLViewController.h"
+#import "RZLUIViewHierarchy.h"
 
 @interface RZLViewController ()
 
@@ -17,7 +18,22 @@
 @synthesize button;
 
 - (IBAction)showNext:(id)sender{
-    NSLog(@"Show next");
+
+//    UIImageView *view = nil;
+//	for(view in imageViews){
+//		if([view isInFront]){
+//			[view sentToBack];
+//			break;
+//		}
+//	} 	
+    
+    UIImageView *viewImg = nil;
+    for(viewImg in imageViews){
+        if ( M_UI_isInFront(viewImg)) {
+            M_UI_sentToBack(viewImg);
+        }
+    
+    }
 }
 
 - (void)viewDidLoad
@@ -25,7 +41,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    
 	self.view.backgroundColor  = [UIColor clearColor];
+    
+    UIView *newView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 420)];
+    
+    [self.view addSubview:newView];
     
 	imageViews = [[NSMutableArray alloc] initWithCapacity:5];	
 	for(int i = 1; i< 6; i++){	
@@ -34,10 +55,11 @@
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 		imageView.frame = [[UIScreen mainScreen] bounds];
 		[imageViews addObject:imageView];	
-		[self.view addSubview:imageView];
+		[newView addSubview:imageView];
 	}
     
     [self.view bringSubviewToFront:button];
+  
 }
 
 - (void)viewDidUnload

@@ -41,6 +41,7 @@
 		5D89171915FC284F00B6C66E /* apple-ipad-background-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-3.jpg"; sourceTree = "<group>"; };
 		5D89171A15FC284F00B6C66E /* apple-ipad-background-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-4.jpg"; sourceTree = "<group>"; };
 		5D89171B15FC284F00B6C66E /* apple-ipad-background-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-5.jpg"; sourceTree = "<group>"; };
+		5D89172D15FC6B4E00B6C66E /* RZLUIViewHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZLUIViewHierarchy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,6 @@
 		5D8916EA15FC273000B6C66E = {
 			isa = PBXGroup;
 			children = (
-				5D89171615FC280700B6C66E /* Resource */,
 				5D8916FF15FC273000B6C66E /* PictureView */,
 				5D8916F815FC273000B6C66E /* Frameworks */,
 				5D8916F615FC273000B6C66E /* Products */,
@@ -93,6 +93,7 @@
 				5D89170B15FC273000B6C66E /* MainStoryboard.storyboard */,
 				5D89170E15FC273000B6C66E /* RZLViewController.h */,
 				5D89170F15FC273000B6C66E /* RZLViewController.m */,
+				5D89172D15FC6B4E00B6C66E /* RZLUIViewHierarchy.h */,
 				5D89170015FC273000B6C66E /* Supporting Files */,
 			);
 			path = PictureView;
@@ -102,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5D89170115FC273000B6C66E /* PictureView-Info.plist */,
+				5D89171615FC280700B6C66E /* Resource */,
 				5D89170215FC273000B6C66E /* InfoPlist.strings */,
 				5D89170515FC273000B6C66E /* main.m */,
 				5D89170715FC273000B6C66E /* PictureView-Prefix.pch */,
@@ -119,6 +121,7 @@
 				5D89171B15FC284F00B6C66E /* apple-ipad-background-5.jpg */,
 			);
 			name = Resource;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +306,7 @@
 				5D89171515FC273000B6C66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
