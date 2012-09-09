@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D8916FA15FC273000B6C66E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8916F915FC273000B6C66E /* UIKit.framework */; };
+		5D8916FC15FC273000B6C66E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8916FB15FC273000B6C66E /* Foundation.framework */; };
+		5D8916FE15FC273000B6C66E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8916FD15FC273000B6C66E /* CoreGraphics.framework */; };
+		5D89170415FC273000B6C66E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D89170215FC273000B6C66E /* InfoPlist.strings */; };
+		5D89170615FC273000B6C66E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D89170515FC273000B6C66E /* main.m */; };
+		5D89170A15FC273000B6C66E /* RZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D89170915FC273000B6C66E /* RZLAppDelegate.m */; };
+		5D89170D15FC273000B6C66E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D89170B15FC273000B6C66E /* MainStoryboard.storyboard */; };
+		5D89171015FC273000B6C66E /* RZLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D89170F15FC273000B6C66E /* RZLViewController.m */; };
+		5D89171C15FC284F00B6C66E /* apple-ipad-background-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D89171715FC284F00B6C66E /* apple-ipad-background-1.jpg */; };
+		5D89171D15FC284F00B6C66E /* apple-ipad-background-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D89171815FC284F00B6C66E /* apple-ipad-background-2.jpg */; };
+		5D89171E15FC284F00B6C66E /* apple-ipad-background-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D89171915FC284F00B6C66E /* apple-ipad-background-3.jpg */; };
+		5D89171F15FC284F00B6C66E /* apple-ipad-background-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D89171A15FC284F00B6C66E /* apple-ipad-background-4.jpg */; };
+		5D89172015FC284F00B6C66E /* apple-ipad-background-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D89171B15FC284F00B6C66E /* apple-ipad-background-5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D8916F515FC273000B6C66E /* PictureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8916F915FC273000B6C66E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D8916FB15FC273000B6C66E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D8916FD15FC273000B6C66E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D89170115FC273000B6C66E /* PictureView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PictureView-Info.plist"; sourceTree = "<group>"; };
+		5D89170315FC273000B6C66E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D89170515FC273000B6C66E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D89170715FC273000B6C66E /* PictureView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PictureView-Prefix.pch"; sourceTree = "<group>"; };
+		5D89170815FC273000B6C66E /* RZLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZLAppDelegate.h; sourceTree = "<group>"; };
+		5D89170915FC273000B6C66E /* RZLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZLAppDelegate.m; sourceTree = "<group>"; };
+		5D89170C15FC273000B6C66E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5D89170E15FC273000B6C66E /* RZLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZLViewController.h; sourceTree = "<group>"; };
+		5D89170F15FC273000B6C66E /* RZLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZLViewController.m; sourceTree = "<group>"; };
+		5D89171715FC284F00B6C66E /* apple-ipad-background-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-1.jpg"; sourceTree = "<group>"; };
+		5D89171815FC284F00B6C66E /* apple-ipad-background-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-2.jpg"; sourceTree = "<group>"; };
+		5D89171915FC284F00B6C66E /* apple-ipad-background-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-3.jpg"; sourceTree = "<group>"; };
+		5D89171A15FC284F00B6C66E /* apple-ipad-background-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-4.jpg"; sourceTree = "<group>"; };
+		5D89171B15FC284F00B6C66E /* apple-ipad-background-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipad-background-5.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D8916F215FC273000B6C66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8916FA15FC273000B6C66E /* UIKit.framework in Frameworks */,
+				5D8916FC15FC273000B6C66E /* Foundation.framework in Frameworks */,
+				5D8916FE15FC273000B6C66E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D8916EA15FC273000B6C66E = {
+			isa = PBXGroup;
+			children = (
+				5D89171615FC280700B6C66E /* Resource */,
+				5D8916FF15FC273000B6C66E /* PictureView */,
+				5D8916F815FC273000B6C66E /* Frameworks */,
+				5D8916F615FC273000B6C66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D8916F615FC273000B6C66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D8916F515FC273000B6C66E /* PictureView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D8916F815FC273000B6C66E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8916F915FC273000B6C66E /* UIKit.framework */,
+				5D8916FB15FC273000B6C66E /* Foundation.framework */,
+				5D8916FD15FC273000B6C66E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D8916FF15FC273000B6C66E /* PictureView */ = {
+			isa = PBXGroup;
+			children = (
+				5D89170815FC273000B6C66E /* RZLAppDelegate.h */,
+				5D89170915FC273000B6C66E /* RZLAppDelegate.m */,
+				5D89170B15FC273000B6C66E /* MainStoryboard.storyboard */,
+				5D89170E15FC273000B6C66E /* RZLViewController.h */,
+				5D89170F15FC273000B6C66E /* RZLViewController.m */,
+				5D89170015FC273000B6C66E /* Supporting Files */,
+			);
+			path = PictureView;
+			sourceTree = "<group>";
+		};
+		5D89170015FC273000B6C66E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D89170115FC273000B6C66E /* PictureView-Info.plist */,
+				5D89170215FC273000B6C66E /* InfoPlist.strings */,
+				5D89170515FC273000B6C66E /* main.m */,
+				5D89170715FC273000B6C66E /* PictureView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D89171615FC280700B6C66E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5D89171715FC284F00B6C66E /* apple-ipad-background-1.jpg */,
+				5D89171815FC284F00B6C66E /* apple-ipad-background-2.jpg */,
+				5D89171915FC284F00B6C66E /* apple-ipad-background-3.jpg */,
+				5D89171A15FC284F00B6C66E /* apple-ipad-background-4.jpg */,
+				5D89171B15FC284F00B6C66E /* apple-ipad-background-5.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D8916F415FC273000B6C66E /* PictureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D89171315FC273000B6C66E /* Build configuration list for PBXNativeTarget "PictureView" */;
+			buildPhases = (
+				5D8916F115FC273000B6C66E /* Sources */,
+				5D8916F215FC273000B6C66E /* Frameworks */,
+				5D8916F315FC273000B6C66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureView;
+			productName = PictureView;
+			productReference = 5D8916F515FC273000B6C66E /* PictureView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D8916EC15FC273000B6C66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RZL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5D8916EF15FC273000B6C66E /* Build configuration list for PBXProject "PictureView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D8916EA15FC273000B6C66E;
+			productRefGroup = 5D8916F615FC273000B6C66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D8916F415FC273000B6C66E /* PictureView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D8916F315FC273000B6C66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D89170415FC273000B6C66E /* InfoPlist.strings in Resources */,
+				5D89170D15FC273000B6C66E /* MainStoryboard.storyboard in Resources */,
+				5D89171C15FC284F00B6C66E /* apple-ipad-background-1.jpg in Resources */,
+				5D89171D15FC284F00B6C66E /* apple-ipad-background-2.jpg in Resources */,
+				5D89171E15FC284F00B6C66E /* apple-ipad-background-3.jpg in Resources */,
+				5D89171F15FC284F00B6C66E /* apple-ipad-background-4.jpg in Resources */,
+				5D89172015FC284F00B6C66E /* apple-ipad-background-5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8916F115FC273000B6C66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D89170615FC273000B6C66E /* main.m in Sources */,
+				5D89170A15FC273000B6C66E /* RZLAppDelegate.m in Sources */,
+				5D89171015FC273000B6C66E /* RZLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D89170215FC273000B6C66E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D89170315FC273000B6C66E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D89170B15FC273000B6C66E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D89170C15FC273000B6C66E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D89171115FC273000B6C66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D89171215FC273000B6C66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D89171415FC273000B6C66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureView/PictureView-Prefix.pch";
+				INFOPLIST_FILE = "PictureView/PictureView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D89171515FC273000B6C66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureView/PictureView-Prefix.pch";
+				INFOPLIST_FILE = "PictureView/PictureView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D8916EF15FC273000B6C66E /* Build configuration list for PBXProject "PictureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D89171115FC273000B6C66E /* Debug */,
+				5D89171215FC273000B6C66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D89171315FC273000B6C66E /* Build configuration list for PBXNativeTarget "PictureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D89171415FC273000B6C66E /* Debug */,
+				5D89171515FC273000B6C66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D8916EC15FC273000B6C66E /* Project object */;
+}
