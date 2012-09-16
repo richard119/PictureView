@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3B2C8916060A4F00FD2415 /* apple1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B2C8816060A4F00FD2415 /* apple1.png */; };
 		5D8916FA15FC273000B6C66E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8916F915FC273000B6C66E /* UIKit.framework */; };
 		5D8916FC15FC273000B6C66E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8916FB15FC273000B6C66E /* Foundation.framework */; };
 		5D8916FE15FC273000B6C66E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8916FD15FC273000B6C66E /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D3B2C8816060A4F00FD2415 /* apple1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple1.png; path = PictureView/apple1.png; sourceTree = "<group>"; };
 		5D8916F515FC273000B6C66E /* PictureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8916F915FC273000B6C66E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D8916FB15FC273000B6C66E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 		5D89171615FC280700B6C66E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				5D3B2C8816060A4F00FD2415 /* apple1.png */,
 				5D89171715FC284F00B6C66E /* apple-ipad-background-1.jpg */,
 				5D89171815FC284F00B6C66E /* apple-ipad-background-2.jpg */,
 				5D89171915FC284F00B6C66E /* apple-ipad-background-3.jpg */,
@@ -182,6 +185,7 @@
 				5D89171E15FC284F00B6C66E /* apple-ipad-background-3.jpg in Resources */,
 				5D89171F15FC284F00B6C66E /* apple-ipad-background-4.jpg in Resources */,
 				5D89172015FC284F00B6C66E /* apple-ipad-background-5.jpg in Resources */,
+				5D3B2C8916060A4F00FD2415 /* apple1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

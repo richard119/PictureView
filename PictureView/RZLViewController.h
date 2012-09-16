@@ -10,11 +10,18 @@
 
 @interface RZLViewController : UIViewController {
     UIButton *button;
+//    UIImageView *imageApp;
 	NSMutableArray *imageViews;
 }
 
 @property (nonatomic,retain) IBOutlet UIButton *button;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageApp;
+
+@property (weak, nonatomic) IBOutlet UIView *subView;
+
 - (IBAction)showNext:(id)sender;
+
+- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
 
 @end

@@ -16,6 +16,9 @@
 @implementation RZLViewController
 
 @synthesize button;
+@synthesize imageApp;
+@synthesize subView;
+
 
 - (IBAction)showNext:(id)sender{
 
@@ -36,6 +39,9 @@
     }
 }
 
+- (IBAction)handleMove:(id)sender {
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -44,9 +50,8 @@
     
 	self.view.backgroundColor  = [UIColor clearColor];
     
-    UIView *newView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 420)];
-    
-    [self.view addSubview:newView];
+//    UIView *newView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 420)];
+//    [self.view addSubview:newView];
     
 	imageViews = [[NSMutableArray alloc] initWithCapacity:5];	
 	for(int i = 1; i< 6; i++){	
@@ -55,15 +60,19 @@
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 		imageView.frame = [[UIScreen mainScreen] bounds];
 		[imageViews addObject:imageView];	
-		[newView addSubview:imageView];
+		[subView addSubview:imageView];
 	}
     
-    [self.view bringSubviewToFront:button];
+//    [self.view bringSubviewToFront:button];
+//    [self.view bringSubviewToFront:imageApp];
   
 }
 
 - (void)viewDidUnload
 {
+    [self setImageApp:nil];
+    [self setSubView:nil];
+
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -72,5 +81,17 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
+
+- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer {
+    
+    CGPoint translation = [recognizer translationInView:self.view];
+    
+    recognizer.view.center = CGPointMake(recognizer.view.center.x + translation.x, recognizer.view.center.y + translation.y);
+    
+    [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+}
+
+
 
 @end
